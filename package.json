@@ -1,5 +1,5 @@
 {
-  "name": "node-app",
+  "name": "app",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -9,8 +9,22 @@
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
     "express": "~4.16.0",
+    "heroku": "^7.22.4",
     "hjs": "~0.0.6",
     "http-errors": "~1.6.2",
     "morgan": "~1.9.0"
-  }
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DorianMenard/node-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DorianMenard/node-app/issues"
+  },
+  "homepage": "https://github.com/DorianMenard/node-app#readme",
+  "description": ""
 }
