@@ -17,3 +17,8 @@ $ heroku create
 $ git push heroku master
 
 $ heroku open
+
+
+4 - Exécuter les tests :
+
+$ npm test
